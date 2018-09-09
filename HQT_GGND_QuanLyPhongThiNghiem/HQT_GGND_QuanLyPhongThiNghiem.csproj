@@ -46,16 +46,82 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmChiTietDangKy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChiTietDangKy.Designer.cs">
+      <DependentUpon>frmChiTietDangKy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDangKyMuonPhong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDangKyMuonPhong.Designer.cs">
+      <DependentUpon>frmDangKyMuonPhong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDangKyMuonThietBi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDangKyMuonThietBi.Designer.cs">
+      <DependentUpon>frmDangKyMuonThietBi.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmDangNhap.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmDangNhap.Designer.cs">
       <DependentUpon>frmDangNhap.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmDanhSachDangKy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDanhSachDangKy.Designer.cs">
+      <DependentUpon>frmDanhSachDangKy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmListNguoiDung.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListThietBi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListThietBi.Designer.cs">
+      <DependentUpon>frmListThietBi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmXacNhanTraPhong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmXacNhanTraPhong.Designer.cs">
+      <DependentUpon>frmXacNhanTraPhong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmXacNhanTraThietBi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmXacNhanTraThietBi.Designer.cs">
+      <DependentUpon>frmXacNhanTraThietBi.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmChiTietDangKy.resx">
+      <DependentUpon>frmChiTietDangKy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDangKyMuonPhong.resx">
+      <DependentUpon>frmDangKyMuonPhong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDangKyMuonThietBi.resx">
+      <DependentUpon>frmDangKyMuonThietBi.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmDangNhap.resx">
       <DependentUpon>frmDangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDanhSachDangKy.resx">
+      <DependentUpon>frmDanhSachDangKy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmListNguoiDung.resx">
+      <DependentUpon>frmListNguoiDung.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmXacNhanTraPhong.resx">
+      <DependentUpon>frmXacNhanTraPhong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmXacNhanTraThietBi.resx">
+      <DependentUpon>frmXacNhanTraThietBi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
